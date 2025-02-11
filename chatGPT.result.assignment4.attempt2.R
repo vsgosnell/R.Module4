@@ -9,8 +9,8 @@ FinalDecision <- c(0, 1, 0, 1, 0, 1, 0, 1, 1, 1)
 par(mfrow = c(1, 2))  # Set plotting area to have 1 row, 2 columns
 
 # Boxplot for BP and MD Ratings
-boxplot(BP, First, Second, names = c("Blood Pressure", "First Rating", "Second Rating"),
-        main = "Boxplots of BP and MD Ratings", col = c("lightblue", "lightgreen", "lightpink"),
+boxplot(BP, First, Second, FinalDecision, names = c("Blood Pressure", "First Rating", "Second Rating", "Final Decision"),
+        main = "Boxplot of BP and MD Ratings", col = c("lightblue", "lightgreen", "lightpink"),
         ylab = "Values")
 
 # Histogram for Blood Pressure
