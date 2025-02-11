@@ -67,7 +67,7 @@ par(new=TRUE)
 #determine the arguments that the function boxplot() takes
 args(boxplot.default)
 
-boxplot(data, axes = FALSE, add = TRUE, col = 'pink', xlim = 250, ylim = 40)
+boxplot(data2, axes = FALSE, add = TRUE, col = 'pink', xlim = 250, ylim = 40)
 
 
 
